@@ -8,15 +8,15 @@ public class Demo {
       int n = Integer.parseInt(args[0]);
       printLoop(n);
     }
-    int[] a = {1, 2, 3, 4, 5};
-    int[][] b = {{9}, {78, 45}, {1, 2, 3}};
-    System.out.println(arrToString(a));
-    System.out.println(arrayDeepToString(b));
-    System.out.println(arrayDeepToString(b).replace("}, ","},\n "));
-    System.out.println(arrayDeepToString(create2DArray(5,4,4)));
-    System.out.println(arrayDeepToString(create2DArray(6,2,3)));
-    System.out.println(arrayDeepToString(create2DArrayRandomized(6,4,10)));
-    System.out.println(arrayDeepToString(create2DArrayRandomized(3,3,100)));
+//    int[] a = {1, 2, 3, 4, 5};
+//    int[][] b = {{9}, {78, 45}, {1, 2, 3}};
+//    System.out.println(arrToString(a));
+//    System.out.println(arrayDeepToString(b));
+//    System.out.println(arrayDeepToString(b).replace("}, ","},\n "));
+//    System.out.println(arrayDeepToString(create2DArray(5,4,4)));
+//    System.out.println(arrayDeepToString(create2DArray(6,2,3)));
+//    System.out.println(arrayDeepToString(create2DArrayRandomized(6,4,10)));
+//    System.out.println(arrayDeepToString(create2DArrayRandomized(3,3,100)));
   }
 
   public static void printLoop(int n) {
